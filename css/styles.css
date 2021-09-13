@@ -56,3 +56,14 @@ p {
   color: white;
   margin-bottom: 0;
 }
+
+.homeContent {
+  min-height: 100px;
+}
+.homeContent__image {
+  min-height: 500px;
+  background-image: url(../img/building.jpeg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
