@@ -1,4 +1,4 @@
-.homeContent {
+.aboutContent {
   &__image {
     min-height: 500px;
     background-image: linear-gradient(
@@ -6,9 +6,9 @@
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.4)
       ),
-      url(../img/building.jpeg);
+      url(../img/employees.jpeg);
     background-size: cover;
-    background-position: center bottom;
+    background-position: center top;
     background-repeat: no-repeat;
 
     display: flex;
@@ -24,16 +24,9 @@
   }
 
   &__body {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-    &__column {
-      width: 35%;
-      padding: 10px;
-      font-size: 20px;
-      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    }
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 }
