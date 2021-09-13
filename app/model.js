@@ -46,10 +46,14 @@ var MODEL = function() {
     <div class="contactContent__map"></div>
 </div>`;
 
-function _updateContent(buttonID) {
+//use the buttonID from the app.js to display the appropriate content to the screen
+function _updateContent(buttonID, callback) {
     let contentID = buttonID + "Content";
-    console.log(contentID);
+    // console.log(contentID);
     $("#content").html(eval(contentID));
+    if(contentID){
+        callback(contentID);
+    }
 }
 
 return {
