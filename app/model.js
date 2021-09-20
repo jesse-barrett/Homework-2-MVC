@@ -1,4 +1,4 @@
-var MODEL = function() {
+var MODEL = (function() {
     let homeContent = `<div class="homeContent">
     <div class="homeContent__image">
         <h1 class="homeContent__image__text">Company Name</h1>
@@ -59,4 +59,4 @@ function _updateContent(buttonID, callback) {
 return {
     updateContent: _updateContent
 }
-}();
+})();
